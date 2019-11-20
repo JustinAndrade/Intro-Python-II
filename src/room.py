@@ -12,7 +12,3 @@ class Room:
 
     def __repr__(self):
         return f'Room:({self.name}), Decription:({self.description})'
-
-
-cool_room = Room('Cool', 'A cool room for cool things and cool people.')
-print(cool_room)
